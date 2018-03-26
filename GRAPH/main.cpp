@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+#include <queue>
+#include "mgraph.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+   
+    mgraph g;
+    initial(g);
+    auto_create(g);
+    print(g);
+    
     return 0;
 }
